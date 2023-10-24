@@ -18,6 +18,11 @@
             android:label="Card label"
             android:parentActivityName=".MainActivity" />
         <activity
+            android:name=".MainCoursesActivity"
+            android:exported="false"
+            android:label="Main Courses label"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
